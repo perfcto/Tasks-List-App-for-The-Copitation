@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.css" />
+    <title>tasks manager</title>
+  </head>
+  <body>
+    <h1 class="head">the project heading</h1>
+    <div class="container">
+      <div class="concolnm not_started_col">
+        <h3>NOT started</h3>
+        <ul class="taskslest not_started_ul">
+          <!-- <li>
+            <input type="text" readonly value="${ele}" class="taskin" />
+            <button class="editButton">
+              <i class="fa-regular fa-pen-to-square edit"></i>
+            </button>
+            <button class="okbtn off">
+              <i class="fa-solid fa-check-double check"></i>
+            </button>
+            <button class="delbutton">
+              <i class="fa-solid fa-trash del"></i>
+            </button>
+          </li> -->
+        </ul>
+        <button class="btn not_started">Add +</button>
+      </div>
+      <div class="concolnm progress_col">
+        <h3>in progress</h3>
+        <ul class="taskslest progress_ul"></ul>
+        <button class="btn progress">Add +</button>
+      </div>
+      <div class="concolnm completed-col">
+        <h3>completed</h3>
+        <ul class="taskslest completed_ul"></ul>
+        <button class="btn completed">Add +</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="all.min.js"></script>
+  </body>
+</html>
